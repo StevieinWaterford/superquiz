@@ -13,4 +13,44 @@
       display: flex;
       width: 100vw;
       height: 100vh;   
+      justify-content: center;
+      align-items: center;
   }
+
+  .container, .results-area, .questions
+  {
+      width: 500px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px 4px;
+      text-align: center;
+  }
+
+  .container {
+      max-width: 80%;
+      background-color: brown;
+      padding: 10px;
+  }
+
+  .results-area, .questions {
+      max-width: 100%;
+      color: black;
+      font-size: 1.2rem;
+  }
+
+  .results-area {
+      background-color: cornflowerblue;
+      padding: 1px;
+  }
+
+
+
+  .blue-button:hover {
+      width: 100px;
+      height: 30px;
+      font-size: 1.2rem;
+      transform: scale(1.4);
+      color: blue;
+    
+     
+  }
+
