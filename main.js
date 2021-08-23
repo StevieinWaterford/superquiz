@@ -1,18 +1,7 @@
-function runGame() {
+let trueanswers = ['b', 'a', 'a'];
+let quizform = document.querySelector('.quiz');
+let result = document.querySelector('.results-area');
 
-}
-
-function checkAnswer() {
-
-}
-
-function calculateCorrectAnswer() {
-
-}
-
-function incrementScore() {
-
-}
 
 
 
