@@ -13,13 +13,12 @@ quizForm.addEventListener('submit', (e) => {
     selectedAnswers.forEach((answer, index) => {
         if (answer === trueAnswers[index])
             percentage += 25;
-
     })
-
+    displayPercentage.textContent = percentage;
 })
 
 
-displayPercentage.textContent = percentage;
+
 
 
 
